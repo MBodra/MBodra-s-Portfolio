@@ -11,7 +11,8 @@ body {
 h1 {
   text-transform: uppercase;
   color: white;
-  font-size: 12vw;
+  font-size: 10vw;
   word-spacing: 2vw;
   text-shadow: 0 0 2vw rgb(0, 0, 0);
+  text-align: center;
 }
