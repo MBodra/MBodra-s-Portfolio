@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: rgb(78, 78, 78);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 8em;
+  word-spacing: 2vw;
+}
