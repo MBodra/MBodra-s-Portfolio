@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: rgb(78, 78, 78);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(83, 75, 109);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,10 +9,57 @@ body {
 }
 
 h1 {
+  margin: 0;
   text-transform: uppercase;
   color: white;
-  font-size: 10vw;
-  word-spacing: 2vw;
+  font-size: 7vw;
   text-shadow: 0 0 2vw rgb(0, 0, 0);
   text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 3vw;
+  text-shadow: 0 0 1vw rgb(0, 0, 0);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#ball-container-link {
+  display: block;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ball-container {
+  background-color: rgb(113, 105, 139);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-radius: 20px;
+  align-content: flex-end;
+  box-shadow: 0 0 1vw rgb(0, 0, 0);
+}
+
+#ball-container:hover {
+  background-color: rgb(128, 121, 151);
+}
+
+#ball {
+  border-radius: 100%;
+  width: 9vw;
+}
+
+#link-text {
+  color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 0 1vw rgb(0, 0, 0);
 }
